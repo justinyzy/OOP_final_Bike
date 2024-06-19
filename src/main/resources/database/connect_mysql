@@ -1,0 +1,52 @@
+import os
+import json
+import mysql.connector
+
+def insert_json_data(file_path, query, cursor):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        records = json.load(file)  # 加載 JSON 數據，假設它是一個列表
+        for data in records:  # 迭代列表中的每個字典
+            if 'StationName' in data:
+                # 直接構造 values 而不進行排序
+                values = (
+                    data['StationUID'], data['StationID'], data['AuthorityID'],
+                    data['StationName']['Zh_tw'], data['StationName']['En'],
+                    data['StationPosition']['PositionLon'], data['StationPosition']['PositionLat'], data['StationPosition']['GeoHash'],
+                    data['StationAddress']['Zh_tw'], data['StationAddress']['En'],
+                    data['BikesCapacity'], data['bike_available']
+                )
+            else:
+                # 對非嵌套結構數據執行排序
+                values = tuple(data[key] for key in sorted(data.keys()) if not isinstance(data[key], dict))
+            cursor.execute(query, values)
+
+def main():
+    base_directory = r'C:\Users\ShaoYang Ho\NTU\ubkie\src\main\resources'
+
+    conn = mysql.connector.connect(
+        host='localhost',
+        user='root',
+        password='Ho111030026',
+        database='ubike'
+    )
+    cursor = conn.cursor()
+
+    cursor.execute("DELETE FROM member_id")
+
+    queries = {
+        os.path.join(base_directory, 'member_id.json'): "INSERT INTO member_id (MemberID, Member_password, id_number, email, YOYO_Card, YOYO_ID, rent_status) VALUES (%s, %s, %s, %s, %s, %s, %s)",
+    }
+
+    try:
+        for file_path, query in queries.items():
+            insert_json_data(file_path, query, cursor)
+        conn.commit()
+    except Exception as e:
+        print("發生錯誤：", e)
+        conn.rollback()
+    finally:
+        cursor.close()
+        conn.close()
+
+if __name__ == "__main__":
+    main()

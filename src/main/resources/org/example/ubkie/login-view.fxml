@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Priority?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.ubkie.Controller.User.LoginController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <HBox alignment="CENTER" AnchorPane.topAnchor="120.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <Label text="會員登入"
+               style="-fx-font-size: 24px; -fx-text-fill: #e9a03e;"/>
+    </HBox>
+
+    <HBox spacing="10.0" alignment="CENTER" AnchorPane.topAnchor="200.0" AnchorPane.rightAnchor="20.0">
+        <HBox alignment="CENTER_LEFT">
+            <ImageView fitHeight="16" fitWidth="16" pickOnBounds="true" preserveRatio="true">
+                <Image url="/phone.png" />
+            </ImageView>
+            <Label text=" 手機號碼" style="-fx-font-size: 14; -fx-text-fill: #e9a03e;"/>
+        </HBox>
+        <TextField fx:id="phoneNumberField" promptText="輸入手機號碼" prefWidth="200" style="-fx-text-alignment: right;"/>
+    </HBox>
+
+    <HBox spacing="10.0" alignment="CENTER" AnchorPane.topAnchor="250.0" AnchorPane.rightAnchor="20.0">
+        <HBox alignment="CENTER_LEFT">
+            <ImageView fitHeight="16" fitWidth="16" pickOnBounds="true" preserveRatio="true">
+                <Image url="/lock.png" />
+            </ImageView>
+            <Label text=" 密碼" style="-fx-font-size: 14; -fx-text-fill: #e9a03e;"/>
+        </HBox>
+        <StackPane>
+            <PasswordField fx:id="passwordField" promptText="輸入密碼" prefWidth="200" style="-fx-text-alignment: right;"/>
+            <TextField fx:id="passwordVisibleField" promptText="輸入密碼" prefWidth="200" style="-fx-text-alignment: right;" visible="false"/>
+        </StackPane>
+        <ImageView fx:id="eyeIcon" fitHeight="16" fitWidth="16" pickOnBounds="true" preserveRatio="true" onMouseClicked="#togglePasswordVisibility">
+            <Image url="/eye_close.png" />
+        </ImageView>
+    </HBox>
+
+    <Button text="登入"
+            style="-fx-font-size: 16px; -fx-text-fill: white; -fx-background-color: #fec401;"
+            fx:id="loginButton" onAction="#handleLoginButtonAction" disable="true"
+            AnchorPane.topAnchor="320.0" AnchorPane.leftAnchor="110.0" AnchorPane.rightAnchor="110.0"/>
+
+    <Button text="還沒有帳號？註冊！"
+            style="-fx-font-size: 12px; -fx-text-fill: white; -fx-background-color: #fec401;"
+            onAction="#handleRegisterButtonAction"
+            AnchorPane.topAnchor="380.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="80.0"/>
+</AnchorPane>

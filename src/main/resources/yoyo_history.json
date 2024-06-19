@@ -1,0 +1,15 @@
+[
+    {
+        "MemberID": "0912345678",
+        "transaction": "-150",
+	"action": "RentCar",
+        "time": "2023-06-10T16:30:00"
+    },
+    {
+        "MemberID": "0912345678",
+        "transaction": "-100",
+	"action": "RentCar",
+
+        "time": "2023-06-11T11:00:00"
+    }
+]

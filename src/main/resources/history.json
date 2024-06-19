@@ -1,0 +1,20 @@
+[
+    {
+        "rent_time": "2023-06-10T14:30:00",
+        "return_time": "2023-06-10T16:30:00",
+        "rent_fee": 150,
+        "rent_place": "500233012",
+        "return_place": "500233012",
+	"rent_BikeUID": "B00001",
+        "MemberID": "0912345678"
+    },
+    {
+        "rent_time": "2023-06-11T09:00:00",
+        "return_time": "2023-06-11T11:00:00",
+        "rent_fee": 100,
+        "rent_place": "500101004",
+        "return_place": "500101008",
+	"rent_BikeUID": "B00001",
+        "MemberID": "0912345678"
+    }
+]

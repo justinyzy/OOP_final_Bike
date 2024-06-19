@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.ubkie.Controller.User.StationQueryController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label text="站點查詢" style="-fx-font-size: 24px; -fx-text-fill: #e9a03e;" AnchorPane.topAnchor="5.0" AnchorPane.leftAnchor="105.0" />
+    <Label text="若未正常顯示站點位置，請在cmd裡執行http-server -p 8080 --cors" style="-fx-font-size: 6px; -fx-text-fill: #e10800;" AnchorPane.topAnchor="35.0" AnchorPane.leftAnchor="70.0" />
+
+    <WebView fx:id="webView" prefHeight="460.0" prefWidth="305.0" AnchorPane.topAnchor="45.0" AnchorPane.leftAnchor="5.0"/>
+
+    <AnchorPane AnchorPane.topAnchor="520.0" AnchorPane.leftAnchor="240.0">
+        <Button text="回上頁" onAction="#handleBackButtonAction" style="-fx-font-size: 16px; -fx-text-fill: white; -fx-background-color: #fec401;"/>
+    </AnchorPane>
+</AnchorPane>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.ubkie.Controller.Staff.VehicleDispatchController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label text="車輛調度" style="-fx-font-size: 24px; -fx-text-fill: #e9a03e;" AnchorPane.topAnchor="70.0" AnchorPane.leftAnchor="105.0"/>
+
+    <AnchorPane AnchorPane.topAnchor="140.0" AnchorPane.leftAnchor="20.0">
+        <Label text="區域" style="-fx-font-size: 18px; -fx-text-fill: #e9a03e;" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0"/>
+        <ComboBox fx:id="regionComboBox" promptText="請選擇區域" prefWidth="200" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="0.0"/>
+    </AnchorPane>
+
+    <AnchorPane AnchorPane.topAnchor="210.0" AnchorPane.leftAnchor="20.0">
+        <Label text="站點" style="-fx-font-size: 18px; -fx-text-fill: #e9a03e;" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0"/>
+        <TextField fx:id="stationField" promptText="欲車輛調度之站點(英文3碼+數字9碼)" prefWidth="200" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="0.0"/>
+    </AnchorPane>
+
+    <AnchorPane AnchorPane.topAnchor="300.0" AnchorPane.leftAnchor="110.0">
+        <Button text="新增車輛" onAction="#handleAddButtonAction" style="-fx-font-size: 16px; -fx-text-fill: white; -fx-background-color: #fec401;" AnchorPane.leftAnchor="0.0"/>
+    </AnchorPane>
+
+    <AnchorPane AnchorPane.topAnchor="380.0" AnchorPane.leftAnchor="110.0">
+        <Button text="減少車輛" onAction="#handleRemoveButtonAction" style="-fx-font-size: 16px; -fx-text-fill: white; -fx-background-color: #fec401;" AnchorPane.leftAnchor="0.0"/>
+    </AnchorPane>
+
+    <AnchorPane AnchorPane.topAnchor="520.0" AnchorPane.leftAnchor="240.0">
+        <Button text="回上頁" onAction="#handleBackButtonAction" style="-fx-font-size: 16px; -fx-text-fill: white; -fx-background-color: #fec401;"/>
+    </AnchorPane>
+</AnchorPane>

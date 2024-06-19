@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.ubkie.Controller.User.CardInfoController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label text="悠遊卡" style="-fx-font-size: 24px; -fx-text-fill: #e9a03e;" AnchorPane.topAnchor="70.0" AnchorPane.leftAnchor="120.0"/>
+
+    <AnchorPane AnchorPane.topAnchor="160.0" AnchorPane.leftAnchor="50.0">
+        <HBox spacing="10.0" alignment="CENTER_LEFT">
+            <Label text="卡號" style="-fx-font-size: 18px; -fx-text-fill: #e9a03e;"/>
+            <Label fx:id="cardNumberLabel" style="-fx-font-size: 18px;"/>
+        </HBox>
+    </AnchorPane>
+
+    <AnchorPane AnchorPane.topAnchor="210.0" AnchorPane.leftAnchor="50.0">
+        <HBox spacing="10.0" alignment="CENTER_LEFT">
+            <Label text="餘額" style="-fx-font-size: 18px; -fx-text-fill: #e9a03e;"/>
+            <Label fx:id="balanceLabel" style="-fx-font-size: 18px;"/>
+        </HBox>
+    </AnchorPane>
+
+    <AnchorPane AnchorPane.topAnchor="300.0" AnchorPane.leftAnchor="130.0">
+        <Button fx:id="topUpButton" text="儲值" onAction="#handleTopUpButtonAction" style="-fx-font-size: 16px; -fx-text-fill: white; -fx-background-color: #fec401;"/>
+    </AnchorPane>
+
+    <AnchorPane AnchorPane.topAnchor="350.0" AnchorPane.leftAnchor="115.0">
+        <Button fx:id="transactionHistoryButton" text="交易紀錄" onAction="#handleTransactionHistoryButtonAction" style="-fx-font-size: 16px; -fx-text-fill: white; -fx-background-color: #fec401;"/>
+    </AnchorPane>
+
+    <AnchorPane AnchorPane.topAnchor="520.0" AnchorPane.leftAnchor="240.0">
+        <Button text="回上頁" onAction="#handleBackButtonAction" style="-fx-font-size: 16px; -fx-text-fill: white; -fx-background-color: #fec401;"/>
+    </AnchorPane>
+</AnchorPane>

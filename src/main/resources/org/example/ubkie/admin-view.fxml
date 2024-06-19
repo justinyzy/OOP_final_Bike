@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.ubkie.Controller.Staff.AdminController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+    <VBox alignment="CENTER" spacing="20.0" AnchorPane.topAnchor="100.0" AnchorPane.leftAnchor="95.0">
+        <Label text="功能選單" style="-fx-font-size: 24px; -fx-text-fill: #e9a03e;"/>
+        <Button text="車輛狀態"
+                style="-fx-font-size: 16px; -fx-text-fill: white; -fx-background-color: #fec401;"
+                onAction="#handleVehicleStatusButtonAction" maxWidth="250"/>
+        <Button text="車柱狀態"
+                style="-fx-font-size: 16px; -fx-text-fill: white; -fx-background-color: #fec401;"
+                onAction="#handleDockStatusButtonAction" maxWidth="250"/>
+        <Button text="跨區車輛"
+                style="-fx-font-size: 16px; -fx-text-fill: white; -fx-background-color: #fec401;"
+                onAction="#handleCrossRegionVehicleButtonAction" maxWidth="250"/>
+        <Button text="車輛調度"
+                style="-fx-font-size: 16px; -fx-text-fill: white; -fx-background-color: #fec401;"
+                onAction="#handleVehicleDispatchButtonAction" maxWidth="250"/>
+        <Button text="維修清單"
+                style="-fx-font-size: 16px; -fx-text-fill: white; -fx-background-color: #fec401;"
+                onAction="#handleMaintenanceListButtonAction" maxWidth="250"/>
+        <Button text="會員資料"
+                style="-fx-font-size: 16px; -fx-text-fill: white; -fx-background-color: #fec401;"
+                onAction="#handleViewMembersButtonAction" maxWidth="250"/>
+    </VBox>
+</AnchorPane>
+

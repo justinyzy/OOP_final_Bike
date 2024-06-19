@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.ubkie.Controller.User.MaintenanceReportController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label text="維修通報" style="-fx-font-size: 24px; -fx-text-fill: #e9a03e;" AnchorPane.topAnchor="70.0" AnchorPane.leftAnchor="105.0"/>
+
+    <AnchorPane AnchorPane.topAnchor="110.0" AnchorPane.leftAnchor="10.0">
+        <HBox spacing="10.0" alignment="CENTER_LEFT">
+            <ComboBox fx:id="reportTypeComboBox" promptText="項目" prefWidth="70"/>
+        </HBox>
+    </AnchorPane>
+
+    <AnchorPane fx:id="vehicleNumberPane" AnchorPane.topAnchor="110.0" AnchorPane.leftAnchor="100.0" visible="false">
+        <HBox spacing="10.0" alignment="CENTER_LEFT">
+            <TextField fx:id="vehicleNumberField" promptText="請輸入欲維修車輛之車號" prefWidth="200"/>
+        </HBox>
+    </AnchorPane>
+
+    <AnchorPane fx:id="stationPane" AnchorPane.topAnchor="110.0" AnchorPane.leftAnchor="90.0" visible="false">
+        <VBox spacing="10.0" alignment="TOP_LEFT">
+            <HBox spacing="10.0" alignment="CENTER_LEFT">
+                <Label text="區域" />
+                <ComboBox fx:id="regionComboBox" promptText="請選擇車柱所在區域" prefWidth="175"/>
+            </HBox>
+            <HBox spacing="10.0" alignment="CENTER_LEFT">
+                <Label text="站點" />
+                <TextField fx:id="stationField" promptText="請輸入站點(英文3碼+數字9碼)" prefWidth="175"/>
+            </HBox>
+            <HBox spacing="10.0" alignment="CENTER_LEFT">
+                <Label text="編號" />
+                <TextField fx:id="stationNumberField" promptText="請輸入車柱編號(末兩碼)" prefWidth="175"/>
+            </HBox>
+        </VBox>
+    </AnchorPane>
+
+    <AnchorPane AnchorPane.topAnchor="210.0" AnchorPane.leftAnchor="10.0">
+        <Label text="維修項目" />
+        <TextArea fx:id="maintenanceDescriptionArea" promptText="請描述維修項目" prefHeight="270" prefWidth="290" wrapText="true"/>
+    </AnchorPane>
+
+    <AnchorPane AnchorPane.topAnchor="520.0" AnchorPane.leftAnchor="10.0">
+        <Button fx:id="submitButton" text="送出" onAction="#handleSubmitButtonAction" style="-fx-font-size: 16px; -fx-text-fill: white; -fx-background-color: #fec401;" disable="true"/>
+    </AnchorPane>
+
+    <AnchorPane AnchorPane.topAnchor="520.0" AnchorPane.leftAnchor="240.0">
+        <Button text="回上頁" onAction="#handleBackButtonAction" style="-fx-font-size: 16px; -fx-text-fill: white; -fx-background-color: #fec401;"/>
+    </AnchorPane>
+</AnchorPane>

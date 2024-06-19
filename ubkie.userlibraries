@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: org.openjfx:javafx-controls:17.0.6">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-controls/17.0.6/javafx-controls-17.0.6.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-graphics:17.0.6">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-graphics/17.0.6/javafx-graphics-17.0.6.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-controls:win:17.0.6">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-controls/17.0.6/javafx-controls-17.0.6-win.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-base:17.0.6">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-base/17.0.6/javafx-base-17.0.6.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-graphics:win:17.0.6">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-graphics/17.0.6/javafx-graphics-17.0.6-win.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-fxml:17.0.6">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-fxml/17.0.6/javafx-fxml-17.0.6.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-base:win:17.0.6">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-base/17.0.6/javafx-base-17.0.6-win.jar" />
+  </library>
+  <library name="Maven: org.junit.jupiter:junit-jupiter-api:5.10.0">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-fxml:win:17.0.6">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-fxml/17.0.6/javafx-fxml-17.0.6-win.jar" />
+  </library>
+  <library name="Maven: org.junit.platform:junit-platform-commons:1.10.0">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar" />
+  </library>
+  <library name="Maven: org.opentest4j:opentest4j:1.3.0">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar" />
+  </library>
+  <library name="Maven: org.junit.jupiter:junit-jupiter-engine:5.10.0">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar" />
+  </library>
+  <library name="Maven: org.apiguardian:apiguardian-api:1.1.2">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar" />
+  </library>
+  <library name="Maven: org.junit.platform:junit-platform-engine:1.10.0">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar" />
+  </library>
+  <library name="Maven: com.google.code.gson:gson:2.8.9">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar" />
+  </library>
+  <library name="lynden.GMapsFX">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/com/lynden/GMapsFX/2.12.0/GMapsFX-2.12.0.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/slf4j/slf4j-api/1.7.23/slf4j-api-1.7.23.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/ch/qos/logback/logback-classic/1.2.1/logback-classic-1.2.1.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/ch/qos/logback/logback-core/1.2.1/logback-core-1.2.1.jar" />
+  </library>
+  <library name="sothawo.mapjfx">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/com/sothawo/mapjfx/3.1.0/mapjfx-3.1.0.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/slf4j/slf4j-api/1.7.31/slf4j-api-1.7.31.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-web/17.0.0.1/javafx-web-17.0.0.1.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-web/17.0.0.1/javafx-web-17.0.0.1-win.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-controls/17.0.0.1/javafx-controls-17.0.0.1.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-controls/17.0.0.1/javafx-controls-17.0.0.1-win.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-graphics/17.0.0.1/javafx-graphics-17.0.0.1.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-graphics/17.0.0.1/javafx-graphics-17.0.0.1-win.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-base/17.0.0.1/javafx-base-17.0.0.1.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-base/17.0.0.1/javafx-base-17.0.0.1-win.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-media/17.0.0.1/javafx-media-17.0.0.1.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-media/17.0.0.1/javafx-media-17.0.0.1-win.jar" />
+  </library>
+  <library name="jxmapviewer.jxmapviewer2">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/jxmapviewer/jxmapviewer2/2.6/jxmapviewer2-2.6.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar" />
+  </library>
+  <library name="openjfx.javafx.swing">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-swing/17.0.6/javafx-swing-17.0.6.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-swing/17.0.6/javafx-swing-17.0.6-win.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-graphics/17.0.6/javafx-graphics-17.0.6.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-graphics/17.0.6/javafx-graphics-17.0.6-win.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-base/17.0.6/javafx-base-17.0.6.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-base/17.0.6/javafx-base-17.0.6-win.jar" />
+  </library>
+  <library name="Maven: org.jxmapviewer:jxmapviewer2:2.6">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/jxmapviewer/jxmapviewer2/2.6/jxmapviewer2-2.6.jar" />
+  </library>
+  <library name="Maven: commons-logging:commons-logging:1.1.3">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar" />
+  </library>
+  <library name="mysql.connector.8.0.28.java">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/mysql/mysql-connector-java/8.0.28/mysql-connector-java-8.0.28.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar" />
+  </library>
+  <library name="mysql.connector.java">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/mysql/mysql-connector-java/8.0.26/mysql-connector-java-8.0.26.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar" />
+  </library>
+  <library name="openjfx.javafx.web">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-web/17.0.6/javafx-web-17.0.6.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-web/17.0.6/javafx-web-17.0.6-win.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-controls/17.0.6/javafx-controls-17.0.6.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-controls/17.0.6/javafx-controls-17.0.6-win.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-graphics/17.0.6/javafx-graphics-17.0.6.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-graphics/17.0.6/javafx-graphics-17.0.6-win.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-base/17.0.6/javafx-base-17.0.6.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-base/17.0.6/javafx-base-17.0.6-win.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-media/17.0.6/javafx-media-17.0.6.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-media/17.0.6/javafx-media-17.0.6-win.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-web:win:17.0.6">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-web/17.0.6/javafx-web-17.0.6-win.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-media:17.0.6">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-media/17.0.6/javafx-media-17.0.6.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-media:win:17.0.6">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-media/17.0.6/javafx-media-17.0.6-win.jar" />
+  </library>
+  <library name="Maven: org.openjfx:javafx-web:17.0.6">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-web/17.0.6/javafx-web-17.0.6.jar" />
+  </library>
+  <library name="fasterxml.jackson.core.databind">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar" />
+  </library>
+  <library name="fasterxml.jackson.core">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar" />
+  </library>
+  <library name="fasterxml.jackson.core.annotations">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar" />
+  </library>
+  <library name="fasterxml.jackson.core.databind.2.13.4.1">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.4.1/jackson-databind-2.13.4.1.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar" />
+  </library>
+  <library name="fasterxml.jackson.core.databind.2.15.2">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar" />
+  </library>
+  <library name="io.github.fvarrui.javapackager">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/io/github/fvarrui/javapackager/1.6.7/javapackager-1.6.7.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/apache/maven/maven-plugin-api/3.6.0/maven-plugin-api-3.6.0.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/apache/maven/maven-model/3.6.0/maven-model-3.6.0.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/apache/maven/maven-artifact/3.6.0/maven-artifact-3.6.0.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.3/org.eclipse.sisu.plexus-0.3.3.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.3/org.eclipse.sisu.inject-0.3.3.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/codehaus/plexus/plexus-utils/3.1.1/plexus-utils-3.1.1.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/twdata/maven/mojo-executor/2.3.0/mojo-executor-2.3.0.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/apache/maven/maven-core/3.0.5/maven-core-3.0.5.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/apache/maven/maven-settings/3.0.5/maven-settings-3.0.5.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/apache/maven/maven-settings-builder/3.0.5/maven-settings-builder-3.0.5.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/apache/maven/maven-repository-metadata/3.0.5/maven-repository-metadata-3.0.5.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/apache/maven/maven-model-builder/3.0.5/maven-model-builder-3.0.5.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/apache/maven/maven-aether-provider/3.0.5/maven-aether-provider-3.0.5.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/sonatype/aether/aether-spi/1.13.1/aether-spi-1.13.1.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/sonatype/aether/aether-impl/1.13.1/aether-impl-1.13.1.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/sonatype/aether/aether-api/1.13.1/aether-api-1.13.1.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/sonatype/aether/aether-util/1.13.1/aether-util-1.13.1.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/2.3.0/sisu-inject-plexus-2.3.0.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/sonatype/sisu/sisu-guava/0.9.9/sisu-guava-0.9.9.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/slf4j/slf4j-simple/1.7.22/slf4j-simple-1.7.22.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/apache/velocity/velocity-engine-core/2.0/velocity-engine-core-2.0.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/vafer/jdeb/1.9/jdeb-1.9.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/apache/ant/ant/1.10.10/ant-1.10.10.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/apache/ant/ant-launcher/1.10.10/ant-launcher-1.10.10.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/net/jsign/jsign-core/3.1/jsign-core-3.1.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/redline-rpm/redline/1.2.10/redline-1.2.10.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/tukaani/xz/1.4/xz-1.4.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/bouncycastle/bcpg-jdk15on/1.69/bcpg-jdk15on-1.69.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/io/github/fvarrui/launch4j/2.5.2/launch4j-2.5.2.jar" />
+  </library>
+  <library name="openjfx.javafx.base">
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-base/17.0.6/javafx-base-17.0.6.jar" />
+    <archive path="C:/Users/ShaoYang Ho/.m2/repository/org/openjfx/javafx-base/17.0.6/javafx-base-17.0.6-win.jar" />
+  </library>
+</eclipse-userlibraries>
+
